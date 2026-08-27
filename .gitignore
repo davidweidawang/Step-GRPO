@@ -1,0 +1,48 @@
+# Python and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and packaging
+.venv/
+venv/
+env/
+/build/
+/dist/
+*.egg-info/
+
+# Training data, models, and outputs
+/data/
+/models/
+/checkpoints/
+/outputs/
+/logs/
+/wandb/
+/mlruns/
+/swanlog/
+/ray_results/
+/tmp/
+*.parquet
+*.arrow
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+*.bin
+
+# Local credentials and caches
+.env
+.env.*
+.cache/
+.hf_cache/
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
