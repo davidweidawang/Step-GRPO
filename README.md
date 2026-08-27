@@ -18,9 +18,7 @@
   <sup>†</sup>Corresponding authors
 </p>
 
-<h3 align="center">ACL 2026 Long Paper</h3>
-
-Official implementation of **Step-GRPO**, a reinforcement-learning method that teaches reasoning models when to stop without an extra inference-time early-exit system.
+> **Step-GRPO has been accepted as a long paper at ACL 2026.**
 
 ## Overview
 
@@ -31,6 +29,8 @@ Large reasoning models that use long chain-of-thought excel at problem-solving y
 </p>
 
 ## Quick start
+
+For detailed environment setup and dependencies, please refer to [EasyR1](https://github.com/hiyouga/EasyR1).
 
 Use [`examples/qwen3_8b_math_step_grpo.sh`](examples/qwen3_8b_math_step_grpo.sh) as the reference training script. Update `MODEL_PATH`, `TRAIN_FILE`, and `VAL_FILE` in the script for your environment, then run:
 
