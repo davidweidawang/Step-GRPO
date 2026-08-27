@@ -25,7 +25,7 @@
 Large reasoning models that use long chain-of-thought excel at problem-solving yet waste compute on redundant checks. Curbing this overthinking is hard: training-time length penalties can cripple ability, while inference-time early-exit adds system overhead. To bridge this gap, we propose **Step-GRPO**, a novel post-training framework that internalizes dynamic early-exit capabilities directly into the model. Step-GRPO shifts the optimization objective from raw tokens to semantic steps by utilizing linguistic markers to structure reasoning. We introduce a *Dynamic Truncated Rollout* mechanism that exposes the model to concise high-confidence trajectories during exploration, synergized with a *Step-Aware Relative Reward* that dynamically penalizes redundancy based on group-level baselines. Extensive experiments across three model sizes on diverse benchmarks demonstrate that Step-GRPO achieves a superior accuracy-efficiency trade-off. On Qwen3-8B, our method reduces token consumption by 32.0\% compared to the vanilla model while avoiding the accuracy degradation observed in traditional length-penalty methods.
 
 <p align="center">
-  <img src="assets/step_grpo_method.png" width="100%" alt="Overview of the Step-GRPO training framework">
+  <img src="assets/step_grpo_poster.png" width="100%" alt="Step-GRPO ACL 2026 poster">
 </p>
 
 ## Quick start
